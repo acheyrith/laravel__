@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f
+class ComposerStaticInitbce6920c40a1e47753182ef65d11ba60
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -391,8 +391,8 @@ class ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -440,8 +440,8 @@ class ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri/src',
-            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            1 => __DIR__ . '/..' . '/league/uri/src',
         ),
         'League\\OAuth2\\Server\\' => 
         array (
@@ -8322,9 +8322,9 @@ class ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1da1e4ec5fa4a57359ac35d12648146f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbce6920c40a1e47753182ef65d11ba60::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbce6920c40a1e47753182ef65d11ba60::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitbce6920c40a1e47753182ef65d11ba60::$classMap;
 
         }, null, ClassLoader::class);
     }
